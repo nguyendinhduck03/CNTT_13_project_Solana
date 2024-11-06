@@ -1,6 +1,14 @@
+import style from "./home.module.scss";
+import classNames from "classnames/bind";
+
+const cx = classNames.bind(style);
+
 function home () {
     return (
-        <h1>Trang chủ nè</h1>
+   
+        <div className={cx('title')}>
+            trang chủ
+        </div>
     )
 }
 
