@@ -19,8 +19,8 @@ function homeLayout({ children }) {
             </div>
             <div className={cx('menu')}>
                 <ul>
-                    <li> <Link to = "#" className={cx('active')}>Trang chủ</Link> </li>
-                    <li> <Link to = "#">Mã giảm giá</Link> </li>
+                    <li> <Link to = "/" className={cx('active')}>Trang chủ</Link> </li>
+                    <li> <Link to = "/ma-giam-gia">Mã giảm giá</Link> </li>
                     <li> <Link to = "#">Tin khuyến mãi</Link> </li>
                     <li> <Link to = "#">Trung tâm hỗ trợ</Link> </li>
                     <li> <Link to = "#">Tích điểm đổi quà</Link> </li>
